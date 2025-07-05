@@ -12,7 +12,7 @@ let score1 = 33; //number
 
 //  console.log(typeof score2);
 
-// let score2 = 33
+// let score2 = "33"
 //  let score2Number = Number(score2);
 //  console.log(score2Number);
 //  console.log(typeof score2Number);
