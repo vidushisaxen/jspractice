@@ -13,6 +13,8 @@
 // let b=100;
 
 // const c =1000;
+// console.log(b);
+// console.log(c);
 
 // var a = 30;
 
@@ -34,9 +36,11 @@
 
 // const c="abc";
 // const c="pqr"
+// console.log(c);
+
 
 // const x =100; //type error
-// // x=10;
+// x=10;
 // console.log(x);
 
 // const y = 10;

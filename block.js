@@ -1,17 +1,21 @@
  // let and const are block scoped - accessible inside their block only , var is global scoped
- {
-    // this ia a block or compound statements - used to combine multiple js statements into one 
-    // var a =20;
-    // console.log(a);
-    // wecan use this block as a whole where JS is expecting only one statement
- }
+//  {
+//     // this ia a block or compound statements - used to combine multiple js statements into one 
+// var a =20;
+//     console.log(a);
+//     // wecan use this block as a whole where JS is expecting only one statement
+//  }
+//  console.log(a);
+ 
 
 //  if(true) console.log("Hello")
-
+// let a=30;
+// const b=50;
 //     if(true) {
-//         var a =20;
-//     console.log(a);
+//         var a1 =20;
+//     console.log(a,b,a1);
 //     }
+
 
 
 //Shadowing
@@ -19,9 +23,9 @@
 // var a1=100; // abc
 // let b=100;
 // const c = 100;
-// // console.log(a1);
-// // console.log(b);
-// // console.log(c);
+// console.log(a1);
+// console.log(b);
+// console.log(c);
 // {
 //         var a1= "abc"; //shadows a1 : bcz first it looks in local scope and also modified the value
 //         let b  = "pqr";
@@ -51,12 +55,12 @@
 // }
 // console.log(b);
 
-var b =100;
-{
-    const b =20;
-    console.log(b);//20
-}
-console.log(b); //100
+// var b =100;
+// {
+//     const b =20;
+//     console.log(b);//20
+// }
+// console.log(b); //100
 
 
 
